@@ -1,0 +1,26 @@
+let myArray = ["break", "lunch", "home", "23"]
+
+// console.log(myArray[2]);
+console.log(typeof myArray)
+
+let myInfo = []
+let myFriendInfo = []
+
+console.log(myInfo==myFriendInfo)
+console.log(myInfo===myFriendInfo)
+
+myArray.pop()
+
+console.log(myArray)
+
+myArray.shift()
+
+console.log(myArray)
+
+myArray.push("book")
+
+console.log(myArray)
+
+myArray.unshift("man")
+
+console.log(myArray)
